@@ -20,7 +20,7 @@ firebase.initializeApp(firebaseConfig);
 const db = firebase.database()
 
 client.commands = new discord.Collection()
-client.aliases = new discord.Collection
+client.aliases = new discord.Collection()
 
 fs.readdir("./Comandos", (err, files) => {
    let jsfile = files.filter(f => f.endsWith(".js"))
